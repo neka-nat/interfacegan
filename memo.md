@@ -1,0 +1,2 @@
+python edit.py -m pggan_celebahq -b boundaries/pggan_celebahq_smile_boundary.npy -n 10 -o results/pggan_celebahq_smile_editing
+python edit.py -m stylegan_ffhq -b boundaries/stylegan_ffhq_gender_w_boundary.npy -n 10 -o results/stylegan_ffhq_w_gender_editing
